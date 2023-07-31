@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b3b3b3;
+}
+header{
+    background-color: #000000;
+    color: yellow;
+    font-family: 'Bungee Inline', cursive;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container h1{
+    font-size: 50px;
+}
+header nav li{
+    display: inline;
+    margin-right: 16px;
+}
+header nav li a{
+    text-decoration: none;
+    color: yellow;
+    font-size: large;
+}
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+}
+section .container{
+    align-items: start;
+    margin-top: 25px;
+}
+section .container img{
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 16px;
+    margin-bottom: 50px;
+}
+section .container h1{
+    font-size: 30px;
+    font-family: 'Bungee Inline', cursive;
+}
+section .container h2{
+    font-size: 15px;
+    font-family: 'Bungee Inline', cursive;
+}
+section .container p{
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;    
+}
+section .os img{
+    height: 50px;
+}
+.os li{
+    display: inline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.mapas{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.mapas h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee Inline', cursive;
+    color: yellow;
+}
+.mapas .container img{
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+}
+.cadastro .container h1{
+    font-size: 20px;
+}
+.container .social img{
+    height: 50px;
+}
+#contato .container{
+    display: block;
+}
+#contato .container .contatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 100px;
+}
+#contato h1{
+    display: flex;
+}
+form input,button,textarea{
+    display: block;
+    width: 320px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 4px;
+}
+form textarea{
+    resize: none;
+    height: 100px;
+}
+form button{
+    background-color: yellow;
+    height: 40px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(255, 255, 110);
+}
+input:focus, textarea:focus{
+    outline-color: yellow;
+} 
+.social li {
+    display: inline;
+}
+.social li a{
+    text-decoration: none;
+}
+footer{
+    background-color: #000000;
+}
+footer .container{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
